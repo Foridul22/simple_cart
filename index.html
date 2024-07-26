@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body class="h-screen items-center">
+    <div class="max-w-7xl bg-[#36384D] mx-auto px-4 h-full">
+      <div class="max-w-4xl mx-auto px-4">
+        <div class="pt-8">
+          <div
+            class="h-full flex justify-start items-center bg-white rounded-xl p-10 space-x-8"
+          >
+            <div class="w-1/2">
+              <h2 class="font-bold text-5xl pb-8">Stay updated!</h2>
+              <p class="pb-5">
+                Join 60,000+ product managers receiving monthly updates on:
+              </p>
+              <div>
+                <div class="flex flex-row gap-3 pb-4">
+                  <img src="./images/icon-list.svg" alt="icon list" />
+                  <p>Product discovery and building what matters</p>
+                </div>
+                <div class="flex flex-row gap-3 pb-4">
+                  <img src="./images/icon-list.svg" alt="icon list" />
+                  <p>Measuring to ensure updates are a success</p>
+                </div>
+                <div class="flex flex-row gap-3">
+                  <img src="./images/icon-list.svg" alt="icon list" />
+                  <p>And much more!</p>
+                </div>
+              </div>
+              <section class="my-12">
+                <form action="" class="font-bold">
+                  <label class="inline-block pb-3" for="email"
+                    >Email address</label
+                  >
+                  <br />
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    required
+                    minlength="3"
+                    maxlength="40"
+                    placeholder="email@company.com"
+                    class="text-black text-sm w-full p-3 rounded-xl border border-slate-400"
+                  />
+                  <button
+                    class="text-base p-3 w-full rounded-xl border border-slate-400 bg-slate-800 text-white hover:bg-gradient-to-r from-pink-600 to-orange-500 mt-5"
+                  >
+                    Subscribe to monthly newsletter
+                  </button>
+                </form>
+              </section>
+            </div>
+
+            <div class="w-1/2">
+              <img
+                src="./images/illustration-sign-up-desktop.svg"
+                alt="sign up image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
